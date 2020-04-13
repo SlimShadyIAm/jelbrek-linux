@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=jelbrek
+Exec=jelbrek %U
+Icon=image
+Type=Application
+Terminal=true
+Categories=Graphics;
+MimeType=image/png;
