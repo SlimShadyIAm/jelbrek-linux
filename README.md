@@ -1,3 +1,5 @@
+# Jelbrek-Linux
+
 This guide will use KDE's `spectacle` as the screenshot application. Install that, along with the following dependencies:
 
 -   `jq`
