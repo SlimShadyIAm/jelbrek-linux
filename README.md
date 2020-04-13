@@ -5,11 +5,11 @@ This guide will use KDE's `spectacle` as the screenshot application. Install tha
 -   `jq`
 -   `xsel`
 -   `curl`
--   `notify-send`
+-   `notify-send` (on Arch the package for this is called `libnotify`)
 
-Once you have installed the dependencies, you need to set your Jelbrek token up as an environment variable. You can do this by:
+Once you have installed the dependencies, you need to set your Jelbrek token up as an environment variable. You can do this as follows:
 
-1. Creating a file under `/etc/profile.d/jelbrek.sh`
+1. Create a file under `/etc/profile.d/jelbrek.sh`
 2. As the contents, write:
     > export JELBREK_TOKEN="yourtokenhere"
 3. Save the file, then log out and back in
