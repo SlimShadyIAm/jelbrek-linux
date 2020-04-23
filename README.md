@@ -6,6 +6,8 @@ This guide will use KDE's `spectacle` as the screenshot application. Install tha
 -   `xsel`
 -   `curl`
 -   `notify-send` (on Arch the package for this is called `libnotify`)
+-   `spectacle` (obviously, this is the screenshot application we're using.)
+-   `konsole` (**only if prompted that konsole is missing by `spectacle`**)
 
 Once you have installed the dependencies, you need to set your Jelbrek token up as an environment variable. You can do this as follows:
 
