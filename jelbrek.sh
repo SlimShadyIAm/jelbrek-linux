@@ -30,7 +30,7 @@ if [ "$(which xsel)" = "" ] ;then
 fi
 
 # POST the image to jelbrek's endpoint. store response temporarily
-response=$(curl --form "x=@$(echo $1)"  -H "Content-Type: multipart/form-data" -H "authorization: $JELBREK_TOKEN" http://jelbrek.icu/upload)
+response=$(curl --form "x=@$(echo $1)"  -H "Content-Type: multipart/form-data" -H "authorization: $JELBREK_TOKEN" https://jelbrek.icu/upload)
 # parse response to see if request was successful
 success=$(echo $response | jq -r '.success')
 # parse repsonse, try to get the URL for the uploaded image
