@@ -1,13 +1,11 @@
-# Jelbrek-Linux
+# Jelbrek-Linux (2.0)
 
-This guide will use KDE's `spectacle` as the screenshot application. Install that, along with the following dependencies:
+This guide will use `maim` as the screenshot application. Install that, along with the following dependencies:
 
 -   `jq`
 -   `xsel`
 -   `curl`
 -   `notify-send` (on Arch the package for this is called `libnotify`)
--   `spectacle` (obviously, this is the screenshot application we're using.)
--   `konsole` (**only if prompted that konsole is missing by `spectacle`**)
 
 Once you have installed the dependencies, you need to set your Jelbrek token up as an environment variable. You can do this as follows:
 
@@ -26,9 +24,7 @@ If you don't set up the token or the dependencies properly, you will get an erro
 
 First install the dependencies listed above and then choose one of the below methods to install the script.
 
-After that's done, when you create a screenshot with `spectacle`, hit the `Export` button and you should see `jelbrek` in the list. Click that and the image will be uploaded. Once done, the link should be copied to your clipboard.
-
-When you screenshot, an image is made under `~/Pictures` and it is deleted automatically 60 seconds after the screenshot upload attempt has been made.
+After that's done, you can either run `jelbrek` from a terminal, using the shortcut from your application launcher, or you can even bind a hotkey which executes the command for you! I won't tell you how to do this.
 
 I haven't done a whole lot of error checking. If you run into issues contact me at SlimShadyIAm#9999 on Discord.
 

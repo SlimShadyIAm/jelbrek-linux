@@ -49,12 +49,6 @@ if [ "$(which git)" = "" ] ;then
 else 
     echo -e "${BLUE}\xE2\x9C\x94 ${NC}git is installed!"
 fi
-if [ "$(which spectacle)" = "" ] ;then
-    echo -e "${RED}\xE2\x9D\x8C ${NC}Dependency spectacle not installed! Please install it."
-    exit 1
-else 
-    echo -e "${BLUE}\xE2\x9C\x94 ${NC}spectacle is installed!"
-fi
 # ------------------ END CHECKING DEPENDENCIES ------------------------
 
 echo ""
