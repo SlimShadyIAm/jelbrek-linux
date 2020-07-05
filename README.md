@@ -1,5 +1,10 @@
 # Jelbrek-Linux (2.0)
 
+---
+**Note:** I am not associated with Everse or Jelbrek.icu. I made this in my own free time because I was bored. Decide for yourself whether you trust it or not.
+
+---
+
 This guide will use `maim` as the screenshot application. Install that, along with the following dependencies:
 
 -   `jq`
